@@ -93,18 +93,7 @@
       </Sheet.Content>
     </Sheet.Root>
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
-      <form class="ml-auto flex-1 sm:flex-initial">
-        <div class="relative">
-          <Search
-            class="text-muted-foreground absolute left-2.5 top-2.5 h-4 w-4"
-          />
-          <Input
-            type="search"
-            placeholder="Search products..."
-            class="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px]"
-          />
-        </div>
-      </form>
+      <div class="ml-auto flex-1 sm:flex-initial"></div>
       <DropdownMenu.Root>
         <DropdownMenu.Trigger asChild let:builder>
           <Button
