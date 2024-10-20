@@ -13,10 +13,9 @@
 
   const nav = [
     { name: "Home", href: "/" },
-    { name: "Orders", href: "##" },
-    { name: "Products", href: "##" },
-    { name: "Customers", href: "##" },
-    { name: "Analytics", href: "##" },
+    { name: "Contact", href: "/contact" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
   ];
 </script>
 
