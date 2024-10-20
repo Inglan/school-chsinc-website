@@ -65,27 +65,6 @@
   <div class="flex w-full items-center gap-2 md:ml-auto md:gap-2 lg:gap-2">
     <div class="ml-auto flex-1 sm:flex-initial"></div>
     <Button href="/contact" class="rounded-full">Get a Quote</Button>
-    <DropdownMenu.Root>
-      <DropdownMenu.Trigger asChild let:builder>
-        <Button
-          builders={[builder]}
-          variant="secondary"
-          size="icon"
-          class="rounded-full"
-        >
-          <CircleUser class="h-5 w-5" />
-          <span class="sr-only">Toggle user menu</span>
-        </Button>
-      </DropdownMenu.Trigger>
-      <DropdownMenu.Content align="end">
-        <DropdownMenu.Label>My Account</DropdownMenu.Label>
-        <DropdownMenu.Separator />
-        <DropdownMenu.Item>Settings</DropdownMenu.Item>
-        <DropdownMenu.Item>Support</DropdownMenu.Item>
-        <DropdownMenu.Separator />
-        <DropdownMenu.Item>Logout</DropdownMenu.Item>
-      </DropdownMenu.Content>
-    </DropdownMenu.Root>
     <Button
       on:click={toggleMode}
       variant="secondary"
