@@ -27,7 +27,7 @@
     class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6"
   >
     <a
-      href="##"
+      href="/"
       class="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
       <Package2 class="h-6 w-6" />
@@ -53,7 +53,7 @@
     </Sheet.Trigger>
     <Sheet.Content side="left">
       <nav class="grid gap-6 text-lg font-medium">
-        <a href="##" class="flex items-center gap-2 text-lg font-semibold">
+        <a href="/" class="flex items-center gap-2 text-lg font-semibold">
           <Package2 class="h-6 w-6" />
           <span class="sr-only">CHS Inc</span>
         </a>
