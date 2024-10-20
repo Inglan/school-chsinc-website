@@ -62,7 +62,26 @@
   </Sheet.Root>
   <div class="flex w-full items-center gap-2 md:ml-auto md:gap-2 lg:gap-2">
     <div class="ml-auto flex-1 sm:flex-initial"></div>
-    <Button href="/contact" class="rounded-full">Get a Quote</Button>
+    <!-- <Button href="/contact" class="rounded-full">Get a Quote</Button> -->
+    <Drawer.Root>
+      <Drawer.Trigger asChild let:builder>
+        <Button builders={[builder]} class="rounded-full">Get a Quote</Button>
+      </Drawer.Trigger>
+      <Drawer.Content>
+        <div class="mx-auto w-full max-w-sm">
+          <Drawer.Header>
+            <Drawer.Title>Get a Quote</Drawer.Title>
+          </Drawer.Header>
+
+          <Drawer.Footer>
+            <Button>Submit</Button>
+            <Drawer.Close asChild let:builder>
+              <Button builders={[builder]} variant="outline">Cancel</Button>
+            </Drawer.Close>
+          </Drawer.Footer>
+        </div>
+      </Drawer.Content>
+    </Drawer.Root>
     <Button
       on:click={toggleMode}
       variant="secondary"
