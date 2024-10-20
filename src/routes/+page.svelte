@@ -12,6 +12,5 @@
     <p class="text-xl">
       Expert quotes and quality repairs delivered to your door
     </p>
-    <div class="flex"></div>
   </div>
 </div>
