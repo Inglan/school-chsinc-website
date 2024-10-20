@@ -8,6 +8,7 @@
   import { Button } from "$lib/components/ui/button/index.js";
   import * as Sheet from "$lib/components/ui/sheet/index.js";
   import * as Drawer from "$lib/components/ui/drawer/index.js";
+  import { Input } from "$lib/components/ui/input/index.js";
 
   const nav = [
     { name: "Home", href: "/" },
@@ -72,9 +73,55 @@
           <Drawer.Header>
             <Drawer.Title>Get a Quote</Drawer.Title>
           </Drawer.Header>
-
+          <!-- <Drawer.Content> -->
+          <div class="p-4 pb-0">
+            <form class="space-y-4">
+              <div>
+                <Input
+                  id="name"
+                  type="text"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Name"
+                />
+              </div>
+              <div>
+                <Input
+                  id="email"
+                  type="email"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <Input
+                  id="phone"
+                  type="tel"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Phone"
+                />
+              </div>
+              <div>
+                <Input
+                  id="address"
+                  type="text"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Address"
+                />
+              </div>
+            </form>
+          </div>
+          <!-- </Drawer.Content> -->
           <Drawer.Footer>
-            <Button>Submit</Button>
+            <Drawer.Close asChild let:builder>
+              <Button
+                builders={[builder]}
+                on:click={() => alert("Form submitted!")}>Submit</Button
+              >
+            </Drawer.Close>
             <Drawer.Close asChild let:builder>
               <Button builders={[builder]} variant="outline">Cancel</Button>
             </Drawer.Close>
