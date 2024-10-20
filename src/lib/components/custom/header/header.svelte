@@ -7,6 +7,7 @@
   import { toggleMode } from "mode-watcher";
   import { Button } from "$lib/components/ui/button/index.js";
   import * as Sheet from "$lib/components/ui/sheet/index.js";
+  import * as Drawer from "$lib/components/ui/drawer/index.js";
 
   const nav = [
     { name: "Home", href: "/" },
