@@ -28,9 +28,9 @@
   >
     <a
       href="/"
-      class="flex items-center gap-2 text-lg font-semibold md:text-base"
+      class="flex items-center gap-2 text-lg font-semibold md:text-base h-8 w-8"
     >
-      <Package2 class="h-6 w-6" />
+      <img src="https://placehold.co/32x32" class="h-8 w-8" />
       <span class="sr-only">CHS Inc</span>
     </a>
     {#each nav as { name, href }}
@@ -53,10 +53,6 @@
     </Sheet.Trigger>
     <Sheet.Content side="left">
       <nav class="grid gap-6 text-lg font-medium">
-        <a href="/" class="flex items-center gap-2 text-lg font-semibold">
-          <Package2 class="h-6 w-6" />
-          <span class="sr-only">CHS Inc</span>
-        </a>
         {#each nav as { name, href }}
           <a {href} class="hover:text-foreground"> {name} </a>
         {/each}
