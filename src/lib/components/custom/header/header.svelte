@@ -120,7 +120,15 @@
             <Drawer.Close asChild let:builder>
               <Button
                 builders={[builder]}
-                on:click={() => alert("Form submitted!")}>Submit</Button
+                on:click={() => {
+                  toast.success("Request submitted", {
+                    description: "Sunday, December 03, 2023 at 9:00 AM",
+                    action: {
+                      label: "Undo",
+                      onClick: () => console.info("Undo"),
+                    },
+                  });
+                }}>Submit</Button
               >
             </Drawer.Close>
             <Drawer.Close asChild let:builder>
