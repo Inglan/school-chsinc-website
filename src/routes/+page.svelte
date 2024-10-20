@@ -1,1 +1,1 @@
-potato
+Home placeholder

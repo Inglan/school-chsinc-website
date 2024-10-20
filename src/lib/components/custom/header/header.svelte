@@ -9,8 +9,15 @@
   import { toggleMode } from "mode-watcher";
   import { Button, Root } from "$lib/components/ui/button/index.js";
   import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
-  import { Input } from "$lib/components/ui/input/index.js";
   import * as Sheet from "$lib/components/ui/sheet/index.js";
+
+  const nav = [
+    { name: "Home", href: "/" },
+    { name: "Orders", href: "##" },
+    { name: "Products", href: "##" },
+    { name: "Customers", href: "##" },
+    { name: "Analytics", href: "##" },
+  ];
 </script>
 
 <header
@@ -26,36 +33,11 @@
       <Package2 class="h-6 w-6" />
       <span class="sr-only">CHS Inc</span>
     </a>
-    <a
-      href="##"
-      class="text-foreground hover:text-foreground transition-colors"
-    >
-      Dashboard
-    </a>
-    <a
-      href="##"
-      class="text-muted-foreground hover:text-foreground transition-colors"
-    >
-      Orders
-    </a>
-    <a
-      href="##"
-      class="text-muted-foreground hover:text-foreground transition-colors"
-    >
-      Products
-    </a>
-    <a
-      href="##"
-      class="text-muted-foreground hover:text-foreground transition-colors"
-    >
-      Customers
-    </a>
-    <a
-      href="##"
-      class="text-muted-foreground hover:text-foreground transition-colors"
-    >
-      Analytics
-    </a>
+    {#each nav as { name, href }}
+      <a {href} class="text-foreground hover:text-foreground transition-colors">
+        {name}
+      </a>
+    {/each}
   </nav>
   <Sheet.Root>
     <Sheet.Trigger asChild let:builder>
@@ -73,21 +55,11 @@
       <nav class="grid gap-6 text-lg font-medium">
         <a href="##" class="flex items-center gap-2 text-lg font-semibold">
           <Package2 class="h-6 w-6" />
-          <span class="sr-only">Acme Inc</span>
+          <span class="sr-only">CHS Inc</span>
         </a>
-        <a href="##" class="hover:text-foreground"> Dashboard </a>
-        <a href="##" class="text-muted-foreground hover:text-foreground">
-          Orders
-        </a>
-        <a href="##" class="text-muted-foreground hover:text-foreground">
-          Products
-        </a>
-        <a href="##" class="text-muted-foreground hover:text-foreground">
-          Customers
-        </a>
-        <a href="##" class="text-muted-foreground hover:text-foreground">
-          Analytics
-        </a>
+        {#each nav as { name, href }}
+          <a {href} class="hover:text-foreground"> {name} </a>
+        {/each}
       </nav>
     </Sheet.Content>
   </Sheet.Root>
