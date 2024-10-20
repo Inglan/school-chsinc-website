@@ -9,6 +9,7 @@
   import * as Sheet from "$lib/components/ui/sheet/index.js";
   import * as Drawer from "$lib/components/ui/drawer/index.js";
   import { Input } from "$lib/components/ui/input/index.js";
+  import { toast } from "svelte-sonner";
 
   const nav = [
     { name: "Home", href: "/" },
