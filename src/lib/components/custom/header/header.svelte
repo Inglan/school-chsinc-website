@@ -10,6 +10,7 @@
   import * as Drawer from "$lib/components/ui/drawer/index.js";
   import { Input } from "$lib/components/ui/input/index.js";
   import { toast } from "svelte-sonner";
+  import { Textarea } from "$lib/components/ui/textarea/index.js";
 
   const nav = [
     { name: "Home", href: "/" },
