@@ -92,7 +92,7 @@
         </nav>
       </Sheet.Content>
     </Sheet.Root>
-    <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
+    <div class="flex w-full items-center gap-2 md:ml-auto md:gap-2 lg:gap-2">
       <div class="ml-auto flex-1 sm:flex-initial"></div>
       <Button class="rounded-full">Get a Quote</Button>
       <DropdownMenu.Root>
