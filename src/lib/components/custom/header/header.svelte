@@ -113,6 +113,22 @@
                   placeholder="Address"
                 />
               </div>
+              <div>
+                <Textarea
+                  id="repairs"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Repairs needed"
+                />
+              </div>
+              <div>
+                <Textarea
+                  id="comments"
+                  required
+                  class="mt-1 block w-full"
+                  placeholder="Comments"
+                />
+              </div>
             </form>
           </div>
           <Drawer.Footer>
