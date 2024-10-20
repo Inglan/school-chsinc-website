@@ -74,7 +74,6 @@
           <Drawer.Header>
             <Drawer.Title>Get a Quote</Drawer.Title>
           </Drawer.Header>
-          <!-- <Drawer.Content> -->
           <div class="p-4 pb-0">
             <form class="space-y-4">
               <div>
@@ -115,7 +114,6 @@
               </div>
             </form>
           </div>
-          <!-- </Drawer.Content> -->
           <Drawer.Footer>
             <Drawer.Close asChild let:builder>
               <Button
