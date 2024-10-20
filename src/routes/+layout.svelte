@@ -5,8 +5,11 @@
 </script>
 
 <ModeWatcher />
-<div class="flex min-h-screen w-full flex-col">
-  <Header />
 
-  <slot></slot>
+<div data-vaul-drawer-wrapper="">
+  <div class="flex min-h-screen w-full flex-col">
+    <Header />
+
+    <slot></slot>
+  </div>
 </div>
