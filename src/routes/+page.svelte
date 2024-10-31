@@ -1,16 +1,41 @@
-<script lang="ts">
-  import { Button } from "$lib/components/ui/button/index.js";
+<script>
+  import { tweened } from "svelte/motion";
+  import { cubicOut } from "svelte/easing";
+  import { onMount } from "svelte";
+
+  let sliderValue = tweened(100, { duration: 1000, easing: cubicOut });
+
+  onMount(() => {
+    setTimeout(() => {
+      sliderValue.set(0); // Start the animation after 2 seconds
+    }, 1000); // 2-second delay
+  });
 </script>
 
-<div
-  class="relative flex flex-col items-center justify-center bg-cover bg-center text-white text-center"
-  style="background-image: url('https://picsum.photos/1920/1080'); height: calc(100vh - 64px);"
->
-  <div class="absolute inset-0 bg-black opacity-50"></div>
-  <div class="relative z-10 flex flex-col gap-4">
-    <h1 class="text-5xl">Reliable Home Repairs, Made Easy</h1>
-    <p class="text-xl">
-      Expert quotes and quality repairs delivered to your door
-    </p>
+<div class="relative w-full h-screen">
+  <!-- Before Image -->
+  <div class="absolute inset-0">
+    <enhanced:img
+      src="$lib/images/photos/hero/before.png"
+      alt="Before Image"
+      class="w-full h-full object-cover brightness-50"
+    />
+  </div>
+
+  <!-- After Image -->
+  <div
+    class="absolute inset-0"
+    style="clip-path: inset(0 0 0 {$sliderValue}%);"
+  >
+    <enhanced:img
+      src="$lib/images/photos/hero/after.png"
+      alt="After Image"
+      class="w-full h-full object-cover brightness-75"
+    />
+  </div>
+
+  <!-- Overlay Text -->
+  <div class="absolute inset-0 flex items-center justify-center">
+    <h1 class="text-white text-4xl">Your Hero Text Here</h1>
   </div>
 </div>
