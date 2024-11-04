@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
   import { tweened } from "svelte/motion";
   import { cubicOut } from "svelte/easing";
   import { onMount } from "svelte";
+  import { Quotebtn } from "$lib/components/custom/quotebtn/index.js";
 
   let sliderValue = tweened(100, { duration: 1000, easing: cubicOut });
 
@@ -35,7 +36,8 @@
   </div>
 
   <!-- Overlay Text -->
-  <div class="absolute inset-0 flex items-center justify-center">
+  <div class="absolute inset-0 flex flex-col gap-5 items-center justify-center">
     <h1 class="text-white text-6xl text-center">Home repairs, made easy</h1>
+    <Quotebtn />
   </div>
 </div>
