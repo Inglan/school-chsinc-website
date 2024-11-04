@@ -36,6 +36,6 @@
 
   <!-- Overlay Text -->
   <div class="absolute inset-0 flex items-center justify-center">
-    <h1 class="text-white text-6xl">Home repairs, made easy</h1>
+    <h1 class="text-white text-6xl text-center">Home repairs, made easy</h1>
   </div>
 </div>
