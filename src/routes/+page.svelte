@@ -12,13 +12,13 @@
   });
 </script>
 
-<div class="relative w-full h-screen">
+<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto m-5">
   <!-- Before Image -->
   <div class="absolute inset-0">
     <enhanced:img
       src="$lib/images/photos/hero/before.png"
       alt="Before Image"
-      class="w-full h-full object-cover brightness-50"
+      class="w-full h-full object-cover brightness-50 rounded-lg"
     />
   </div>
 
@@ -30,7 +30,7 @@
     <enhanced:img
       src="$lib/images/photos/hero/after.png"
       alt="After Image"
-      class="w-full h-full object-cover brightness-75"
+      class="w-full h-full object-cover brightness-50 rounded-lg"
     />
   </div>
 
