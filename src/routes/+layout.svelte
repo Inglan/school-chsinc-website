@@ -3,6 +3,19 @@
   import { ModeWatcher } from "mode-watcher";
   import { Header } from "$lib/components/custom/header/index.js";
   import { Toaster } from "$lib/components/ui/sonner";
+
+  import { onNavigate } from "$app/navigation";
+
+  onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+
+    return new Promise((resolve) => {
+      document.startViewTransition(async () => {
+        resolve();
+        await navigation.complete;
+      });
+    });
+  });
 </script>
 
 <ModeWatcher />
