@@ -25,6 +25,8 @@
   <div class="flex min-h-screen w-full flex-col">
     <Header />
 
-    <slot></slot>
+    <div class="p-3">
+      <slot></slot>
+    </div>
   </div>
 </div>
