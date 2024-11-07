@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Button } from "$lib/components/ui/button/index.js";
+
   import { tweened } from "svelte/motion";
   import { cubicOut } from "svelte/easing";
   import { onMount } from "svelte";
@@ -38,6 +40,11 @@
   <!-- Overlay Text -->
   <div class="absolute inset-0 flex flex-col gap-5 items-center justify-center">
     <h1 class="text-white text-6xl text-center">Home repairs, made easy</h1>
-    <Quotebtn />
+    <div class="flex flex-row gap-2">
+      <Quotebtn />
+      <Button href="/contact" class="rounded-full" variant="secondary"
+        >Contact</Button
+      >
+    </div>
   </div>
 </div>
