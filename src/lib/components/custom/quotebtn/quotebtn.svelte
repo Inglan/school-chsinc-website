@@ -6,7 +6,7 @@
   import { Textarea } from "$lib/components/ui/textarea/index.js";
 </script>
 
-<Drawer.Root>
+<Drawer.Root shouldScaleBackground={false}>
   <Drawer.Trigger asChild let:builder>
     <Button builders={[builder]} class="rounded-full">Get a Quote</Button>
   </Drawer.Trigger>
