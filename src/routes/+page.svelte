@@ -12,15 +12,23 @@
   const services = [
     {
       title: "Home Repairs",
-      description: "From minor fixes to major restorations.",
+      description:
+        "Whether it’s a small fix or a major restoration, our experienced repair personnel handle all types of home repairs with precision and care.",
     },
     {
       title: "General Maintenance",
-      description: "Keeping your home in top shape.",
+      description:
+        "We offer ongoing maintenance services to ensure your home remains in excellent condition year-round, preventing issues before they become costly problems.",
     },
     {
       title: "Mobile Quotes",
-      description: "Quick, on-site estimates at your convenience.",
+      description:
+        "Our quote officers come directly to your home, equipped with the latest mobile technology to assess the work needed and provide fast, accurate estimates.",
+    },
+    {
+      title: "Custom Solutions",
+      description:
+        "No two homes are the same, so we provide personalized repair plans based on your specific requirements.",
     },
   ];
 
@@ -69,8 +77,12 @@
 </div>
 
 <div class="relative w-full max-w-6xl mx-auto m-5">
-  <h2 class="text-4xl text-center mb-8">What We Do</h2>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <h2 class="text-4xl text-center mb-4">Our Services</h2>
+  <p class="text-center mb-8">
+    At CHS Incorporated, we provide a comprehensive range of home repair and
+    maintenance services, tailored to meet your needs:
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {#each services as service}
       <Card.Root class="rounded-lg">
         <Card.Header>
@@ -82,4 +94,8 @@
       </Card.Root>
     {/each}
   </div>
+  <p class="text-center mt-8">
+    Our team is dedicated to making the process as smooth and efficient as
+    possible, from initial quote to final repair.
+  </p>
 </div>
