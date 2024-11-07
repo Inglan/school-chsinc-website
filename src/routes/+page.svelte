@@ -15,7 +15,7 @@
     {
       title: "Home Repairs",
       description:
-        "Whether it’s a small fix or a major restoration, our experienced repair personnel handle all types of home repairs with precision and care.",
+        "Whether it's a small fix or a major restoration, our experienced repair personnel handle all types of home repairs with precision and care.",
     },
     {
       title: "General Maintenance",
@@ -71,12 +71,12 @@
     {
       title: "Sam Johnson",
       description:
-        "I’ve used CHS Incorporated for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
+        "I've used CHS Incorporated for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
     },
     {
       title: "Emily Brown",
       description:
-        "CHS Incorporated is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn’t trust anyone else with my home repairs.",
+        "CHS Incorporated is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn't trust anyone else with my home repairs.",
     },
   ];
 
@@ -153,7 +153,7 @@
 <div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Why Choose CHS Incorporated?</h2>
   <p class="text-center mb-8">
-    At CHS Incorporated, we go beyond basic repairs. Here’s why homeowners trust
+    At CHS Incorporated, we go beyond basic repairs. Here's why homeowners trust
     us with their properties:
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
