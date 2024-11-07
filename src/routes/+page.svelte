@@ -6,6 +6,8 @@
   import { onMount } from "svelte";
   import { Quotebtn } from "$lib/components/custom/quotebtn/index.js";
 
+  import Star from "lucide-svelte/icons/star";
+
   let sliderValue = tweened(100, { duration: 1000, easing: cubicOut });
   import * as Card from "$lib/components/ui/card/index.js";
 
@@ -52,6 +54,29 @@
       title: "Reliability & Accountability",
       description:
         "We show up on time, respect your space, and complete every job with professionalism and care.",
+    },
+  ];
+
+  const reviews = [
+    {
+      title: "John Doe",
+      description:
+        "CHS Incorporated made my home repairs a breeze. The team was professional, efficient, and the results were outstanding. Highly recommend!",
+    },
+    {
+      title: "Jane Smith",
+      description:
+        "I was impressed with the level of service and attention to detail CHS Incorporated provided. They went above and beyond to ensure my repairs were completed to my satisfaction.",
+    },
+    {
+      title: "Sam Johnson",
+      description:
+        "I’ve used CHS Incorporated for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
+    },
+    {
+      title: "Emily Brown",
+      description:
+        "CHS Incorporated is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn’t trust anyone else with my home repairs.",
     },
   ];
 
@@ -139,6 +164,33 @@
         </Card.Header>
         <Card.Content>
           <p>{reason.description}</p>
+        </Card.Content>
+      </Card.Root>
+    {/each}
+  </div>
+</div>
+
+<div class="relative w-full max-w-6xl mx-auto mb-5">
+  <h2 class="text-4xl text-center mb-4">Reviews</h2>
+  <p class="text-center mb-8">
+    Here are some legit completley real balanced reviews from our satisfied
+    customers.
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {#each reviews as review}
+      <Card.Root class="rounded-lg">
+        <Card.Header>
+          <Card.Title>{review.title}</Card.Title>
+          <div class="flex flex-row gap-1">
+            <Star />
+            <Star />
+            <Star />
+            <Star />
+            <Star />
+          </div>
+        </Card.Header>
+        <Card.Content>
+          <p>{review.description}</p>
         </Card.Content>
       </Card.Root>
     {/each}
