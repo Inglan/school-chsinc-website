@@ -88,6 +88,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>CHS Inc</title>
+</svelte:head>
+
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
   <!-- Before Image -->
   <div class="absolute inset-0">
