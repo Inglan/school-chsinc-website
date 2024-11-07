@@ -149,6 +149,15 @@
     possible, from initial quote to final repair.
   </p>
 </div>
+<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
+  <div class="absolute inset-0">
+    <enhanced:img
+      src="$lib/images/photos/drill.jpg"
+      alt="Decorative repair image"
+      class="w-full h-full object-cover rounded-lg"
+    />
+  </div>
+</div>
 
 <div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Why Choose CHS Incorporated?</h2>
@@ -167,6 +176,15 @@
         </Card.Content>
       </Card.Root>
     {/each}
+  </div>
+</div>
+<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
+  <div class="absolute inset-0">
+    <enhanced:img
+      src="$lib/images/photos/guy-with-pencil.jpg"
+      alt="Repair decorative image"
+      class="w-full h-full object-cover rounded-lg"
+    />
   </div>
 </div>
 
@@ -194,6 +212,16 @@
         </Card.Content>
       </Card.Root>
     {/each}
+  </div>
+</div>
+
+<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
+  <div class="absolute inset-0">
+    <enhanced:img
+      src="$lib/images/photos/house.jpg"
+      alt="Nice house"
+      class="w-full h-full object-cover rounded-lg"
+    />
   </div>
 </div>
 
