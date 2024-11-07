@@ -59,24 +59,25 @@
 
   const reviews = [
     {
-      title: "John Doe",
-      description:
-        "CHS Incorporated made my home repairs a breeze. The team was professional, efficient, and the results were outstanding. Highly recommend!",
-    },
-    {
-      title: "Jane Smith",
+      title: "Rick Asstley",
       description:
         "I was impressed with the level of service and attention to detail CHS Incorporated provided. They went above and beyond to ensure my repairs were completed to my satisfaction.",
     },
     {
-      title: "Sam Johnson",
+      title: "Tim Cock",
       description:
         "I've used CHS Incorporated for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
     },
     {
-      title: "Emily Brown",
+      title: "Sam Sung",
       description:
         "CHS Incorporated is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn't trust anyone else with my home repairs.",
+    },
+    {
+      title:
+        "Dr. Octavius Thaddeus Sinclair the 69th, Lord Protector of the Commonwealth, Knight of the Sapphire Order, Ph.D., M.Sc., Fellow of the Royal Astronomical Society",
+      description:
+        "CHS Incorporated made my home repairs a breeze. The team was professional, efficient, and the results were outstanding. Highly recommend!",
     },
   ];
 
