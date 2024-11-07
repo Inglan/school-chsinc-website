@@ -28,5 +28,10 @@
     <div class="p-3">
       <slot></slot>
     </div>
+
+    <footer class="bg-gray-800 text-white text-center py-3">
+      <p>&copy; 2025 CHS Inc.</p>
+      <p>This is not a real company please dont sue me</p>
+    </footer>
   </div>
 </div>

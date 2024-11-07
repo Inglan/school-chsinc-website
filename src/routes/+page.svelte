@@ -39,7 +39,7 @@
   });
 </script>
 
-<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto m-5">
+<div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
   <!-- Before Image -->
   <div class="absolute inset-0">
     <enhanced:img
@@ -63,10 +63,12 @@
 
   <!-- Overlay Text -->
   <div class="absolute inset-0 flex flex-col gap-5 items-center justify-center">
-    <h1 class="text-white text-6xl text-center">
+    <h1 class="text-white text-6xl text-center px-2">
       Reliable Home Repairs, Made Easy
     </h1>
-    Expert quotes and quality repairs delivered to your door.
+    <p class="text-center px-2">
+      Expert quotes and quality repairs delivered to your door.
+    </p>
     <div class="flex flex-row gap-2">
       <Quotebtn />
       <Button href="/contact" class="rounded-full" variant="secondary"
@@ -76,7 +78,7 @@
   </div>
 </div>
 
-<div class="relative w-full max-w-6xl mx-auto m-5">
+<div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Our Services</h2>
   <p class="text-center mb-8">
     At CHS Incorporated, we provide a comprehensive range of home repair and
