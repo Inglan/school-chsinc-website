@@ -90,6 +90,10 @@
 
 <svelte:head>
   <title>CHS Inc</title>
+  <meta
+    name="description"
+    content="CHS Incorporated provides home repair and maintenance services. Get a quote today!"
+  />
 </svelte:head>
 
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">

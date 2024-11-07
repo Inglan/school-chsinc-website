@@ -42,6 +42,10 @@
 
 <svelte:head>
   <title>Services - CHS Inc</title>
+  <meta
+    name="description"
+    content="CHS Incorporated offers a range of home repair and maintenance services to keep your property in top condition. Learn more about our services and how we can help you."
+  />
 </svelte:head>
 
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">

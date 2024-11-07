@@ -3,6 +3,10 @@
 
 <svelte:head>
   <title>Privacy - CHS Inc</title>
+  <meta
+    name="description"
+    content="CHS Incorporated is committed to protecting your privacy. Learn more about how we collect, store, and use your information when you visit our website."
+  />
 </svelte:head>
 
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">

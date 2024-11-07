@@ -7,6 +7,10 @@
 
 <svelte:head>
   <title>Contact - CHS Inc</title>
+  <meta
+    name="description"
+    content="Contact CHS Incorporated for home repair and maintenance services. Get a quote, ask a question, or schedule a service appointment."
+  />
 </svelte:head>
 
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
