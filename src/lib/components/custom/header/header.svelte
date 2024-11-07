@@ -12,6 +12,8 @@
   import { Textarea } from "$lib/components/ui/textarea/index.js";
   import { Quotebtn } from "$lib/components/custom/quotebtn/index.js";
 
+  let open = false;
+
   const nav = [
     { name: "Home", href: "/" },
     { name: "Contact", href: "/contact" },
@@ -23,7 +25,7 @@
 <header
   class="z-50 bg-background sticky top-0 flex h-16 items-center gap-4 border-b px-4 md:px-6"
 >
-  <Sheet.Root>
+  <Sheet.Root bind:open>
     <Sheet.Trigger asChild let:builder>
       <Button
         variant="outline"
@@ -38,7 +40,15 @@
     <Sheet.Content side="left">
       <nav class="grid gap-6 text-lg font-medium">
         {#each nav as { name, href }}
-          <a {href} class="hover:text-foreground"> {name} </a>
+          <a
+            {href}
+            class="hover:text-foreground"
+            on:click={function () {
+              open = false;
+            }}
+          >
+            {name}
+          </a>
         {/each}
       </nav>
     </Sheet.Content>
