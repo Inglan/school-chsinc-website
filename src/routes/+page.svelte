@@ -89,7 +89,7 @@
     <h1 class="text-white text-6xl text-center px-2">
       Reliable Home Repairs, Made Easy
     </h1>
-    <p class="text-center px-2">
+    <p class="text-white text-center px-2">
       Expert quotes and quality repairs delivered to your door.
     </p>
     <div class="flex flex-row gap-2">
@@ -125,7 +125,7 @@
   </p>
 </div>
 
-<div class="relative w-full max-w-6xl mx-auto m-5 rounded-lg p-8">
+<div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Why Choose CHS Incorporated?</h2>
   <p class="text-center mb-8">
     At CHS Incorporated, we go beyond basic repairs. Here’s why homeowners trust
