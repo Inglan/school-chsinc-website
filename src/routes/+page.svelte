@@ -32,6 +32,29 @@
     },
   ];
 
+  const reasons = [
+    {
+      title: "Experienced Professionals",
+      description:
+        "Our skilled repair personnel and dedicated quote officers bring years of expertise to every job, ensuring top-notch results.",
+    },
+    {
+      title: "Customer-First Approach",
+      description:
+        "We value open communication and are committed to delivering service that meets your needs and budget.",
+    },
+    {
+      title: "Transparent Quotes",
+      description:
+        "No hidden fees—our quotes are clear, detailed, and provided on-site for your convenience.",
+    },
+    {
+      title: "Reliability & Accountability",
+      description:
+        "We show up on time, respect your space, and complete every job with professionalism and care.",
+    },
+  ];
+
   onMount(() => {
     setTimeout(() => {
       sliderValue.set(0); // Start the animation after 2 seconds
@@ -99,5 +122,28 @@
   <p class="text-center mt-8">
     Our team is dedicated to making the process as smooth and efficient as
     possible, from initial quote to final repair.
+  </p>
+</div>
+
+<div class="relative w-full max-w-6xl mx-auto m-5 rounded-lg p-8">
+  <h2 class="text-4xl text-center mb-4">Why Choose CHS Incorporated?</h2>
+  <p class="text-center mb-8">
+    At CHS Incorporated, we go beyond basic repairs. Here’s why homeowners trust
+    us with their properties:
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {#each reasons as reason}
+      <Card.Root class="rounded-lg">
+        <Card.Header>
+          <Card.Title>{reason.title}</Card.Title>
+        </Card.Header>
+        <Card.Content>
+          <p>{reason.description}</p>
+        </Card.Content>
+      </Card.Root>
+    {/each}
+  </div>
+  <p class="text-center mt-8">
+    Let us make your repair experience easy, reliable, and stress-free.
   </p>
 </div>
