@@ -182,7 +182,7 @@
 <div class="relative w-full max-w-6xl h-[800px] max-h-screen mx-auto mb-5">
   <div class="absolute inset-0">
     <enhanced:img
-      src="$lib/images/photos/guy-with-pencil.jpg"
+      src="$lib/images/photos/painting.jpg"
       alt="Repair decorative image"
       class="w-full h-full object-cover rounded-lg"
     />
