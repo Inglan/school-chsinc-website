@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Menu from "lucide-svelte/icons/menu";
-  import Sun from "lucide-svelte/icons/sun";
-  import Moon from "lucide-svelte/icons/moon";
+  import Menu from "svelte-material-icons/Menu.svelte";
+  import Sun from "svelte-material-icons/WeatherSunny.svelte";
+  import Moon from "svelte-material-icons/WeatherNight.svelte";
 
   import { toggleMode } from "mode-watcher";
   import { Button } from "$lib/components/ui/button/index.js";
@@ -83,12 +83,9 @@
       size="icon"
       class="rounded-full"
     >
-      <Sun
-        class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
-      />
-      <Moon
-        class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
-      />
+      <Sun class="absolute h-[1.2rem] w-[1.2rem] hidden dark:block" />
+      <Moon class="absolute h-[1.2rem] w-[1.2rem] block dark:hidden" />
+
       <span class="sr-only">Toggle theme</span>
     </Button>
   </div>

@@ -6,7 +6,7 @@
   import { onMount } from "svelte";
   import { Quotebtn } from "$lib/components/custom/quotebtn/index.js";
 
-  import Star from "lucide-svelte/icons/star";
+  import Star from "svelte-material-icons/Star.svelte";
 
   let sliderValue = tweened(100, { duration: 1000, easing: cubicOut });
   import * as Card from "$lib/components/ui/card/index.js";
