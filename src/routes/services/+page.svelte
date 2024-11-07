@@ -5,13 +5,13 @@
   <!-- Before Image -->
   <div class="absolute inset-0">
     <enhanced:img
-      src="$lib/images/photos/security.jpg"
+      src="$lib/images/photos/repair.jpg"
       alt="Decorative Background Image"
       class="w-full h-full object-cover brightness-50 rounded-lg"
     />
   </div>
   <!-- Overlay Text -->
   <div class="absolute inset-0 flex flex-col gap-5 items-center justify-center">
-    <h1 class="text-white text-6xl text-center">Privacy</h1>
+    <h1 class="text-white text-6xl text-center">Services</h1>
   </div>
 </div>

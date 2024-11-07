@@ -10,7 +10,7 @@
   <div class="absolute inset-0">
     <enhanced:img
       src="$lib/images/photos/contact.jpg"
-      alt="Before Image"
+      alt="Decorative Background Image"
       class="w-full h-full object-cover brightness-50 rounded-lg"
     />
   </div>
