@@ -60,7 +60,11 @@
       href="/"
       class="flex items-center gap-2 text-lg font-semibold md:text-base h-10 w-10"
     >
-      <enhanced:img src="$lib/images/logo.png" class="h-10 w-10" />
+      <enhanced:img
+        alt="CHS Inc Logo"
+        src="$lib/images/logo.png"
+        class="h-10 w-10"
+      />
       <span class="sr-only">CHS Inc</span>
     </a>
     <div class="flex flex-row gap-3 hidden md:flex">
