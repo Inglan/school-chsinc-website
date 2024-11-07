@@ -9,7 +9,7 @@
   <title>Contact - CHS Inc</title>
   <meta
     name="description"
-    content="Contact CHS Incorporated for home repair and maintenance services. Get a quote, ask a question, or schedule a service appointment."
+    content="Contact CHS Inc for home repair and maintenance services. Get a quote, ask a question, or schedule a service appointment."
   />
 </svelte:head>
 

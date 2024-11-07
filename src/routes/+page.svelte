@@ -61,23 +61,23 @@
     {
       title: "Rick Asstley",
       description:
-        "I was impressed with the level of service and attention to detail CHS Incorporated provided. They went above and beyond to ensure my repairs were completed to my satisfaction.",
+        "I was impressed with the level of service and attention to detail CHS Inc provided. They went above and beyond to ensure my repairs were completed to my satisfaction.",
     },
     {
       title: "Tim Cock",
       description:
-        "I've used CHS Incorporated for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
+        "I've used CHS Inc for multiple home repairs and have been consistently impressed with the quality of their work. They are my go-to for all my repair needs.",
     },
     {
       title: "Sam Sung",
       description:
-        "CHS Incorporated is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn't trust anyone else with my home repairs.",
+        "CHS Inc is the best in the business. They are reliable, professional, and always deliver exceptional results. I wouldn't trust anyone else with my home repairs.",
     },
     {
       title:
         "Dr. Octavius Thaddeus Sinclair the 69th, Lord Protector of the Commonwealth, Knight of the Sapphire Order, Ph.D., M.Sc., Fellow of the Royal Astronomical Society",
       description:
-        "CHS Incorporated made my home repairs a breeze. The team was professional, efficient, and the results were outstanding. Highly recommend!",
+        "CHS Inc made my home repairs a breeze. The team was professional, efficient, and the results were outstanding. Highly recommend!",
     },
   ];
 
@@ -92,7 +92,7 @@
   <title>CHS Inc</title>
   <meta
     name="description"
-    content="CHS Incorporated provides home repair and maintenance services. Get a quote today!"
+    content="CHS Inc provides home repair and maintenance services. Get a quote today!"
   />
 </svelte:head>
 
@@ -138,8 +138,8 @@
 <div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Our Services</h2>
   <p class="text-center mb-8">
-    At CHS Incorporated, we provide a comprehensive range of home repair and
-    maintenance services, tailored to meet your needs:
+    At CHS Inc, we provide a comprehensive range of home repair and maintenance
+    services, tailored to meet your needs:
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {#each services as service}
@@ -169,10 +169,10 @@
 </div>
 
 <div class="relative w-full max-w-6xl mx-auto mb-5">
-  <h2 class="text-4xl text-center mb-4">Why Choose CHS Incorporated?</h2>
+  <h2 class="text-4xl text-center mb-4">Why Choose CHS Inc?</h2>
   <p class="text-center mb-8">
-    At CHS Incorporated, we go beyond basic repairs. Here's why homeowners trust
-    us with their properties:
+    At CHS Inc, we go beyond basic repairs. Here's why homeowners trust us with
+    their properties:
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {#each reasons as reason}

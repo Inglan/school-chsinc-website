@@ -44,7 +44,7 @@
   <title>Services - CHS Inc</title>
   <meta
     name="description"
-    content="CHS Incorporated offers a range of home repair and maintenance services to keep your property in top condition. Learn more about our services and how we can help you."
+    content="CHS Inc offers a range of home repair and maintenance services to keep your property in top condition. Learn more about our services and how we can help you."
   />
 </svelte:head>
 
@@ -65,8 +65,8 @@
 <div class="relative w-full max-w-6xl mx-auto mb-5">
   <h2 class="text-4xl text-center mb-4">Our Services</h2>
   <p class="text-center mb-8">
-    At CHS Incorporated, we provide a comprehensive range of home repair and
-    maintenance services, tailored to meet your needs:
+    At CHS Inc, we provide a comprehensive range of home repair and maintenance
+    services, tailored to meet your needs:
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {#each services as service}

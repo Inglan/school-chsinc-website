@@ -5,7 +5,7 @@
   <title>Privacy - CHS Inc</title>
   <meta
     name="description"
-    content="CHS Incorporated is committed to protecting your privacy. Learn more about how we collect, store, and use your information when you visit our website."
+    content="CHS Inc is committed to protecting your privacy. Learn more about how we collect, store, and use your information when you visit our website."
   />
 </svelte:head>
 
@@ -27,9 +27,9 @@
 <div class="relative w-full max-w-6xl mx-auto mb-5 flex flex-col gap-2">
   <h2 class="text-3xl">Introduction</h2>
   <p>
-    At CHS Incorporated, we are committed to protecting your privacy. This
-    policy explains how we collect, store, and use your information when you
-    visit our website or engage with our services.
+    At CHS Inc, we are committed to protecting your privacy. This policy
+    explains how we collect, store, and use your information when you visit our
+    website or engage with our services.
   </p>
 
   <h2 class="text-3xl">Information We Collect</h2>
@@ -68,7 +68,7 @@
     <li>Offer relevant marketing information and promotions</li>
     <li>
       Enhance your experience on our website and personalize your interactions
-      with CHS Incorporated
+      with CHS Inc
     </li>
   </ul>
 
