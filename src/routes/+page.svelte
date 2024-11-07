@@ -195,7 +195,11 @@
       </Card.Root>
     {/each}
   </div>
-  <p class="text-center mt-8">
-    Let us make your repair experience easy, reliable, and stress-free.
-  </p>
+</div>
+
+<div class="relative w-full max-w-6xl mx-auto mb-5">
+  <h2 class="text-4xl text-center mb-4">The Choice is Clear</h2>
+  <div class="flex items-center justify-center">
+    <Quotebtn />
+  </div>
 </div>
